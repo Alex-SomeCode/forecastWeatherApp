@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css" />
+  <title>Weather_2</title>
+</head>
+
+<body>
+  <div id="wrprRoot">
+    <header>
+      <div id="wrprHeader">
+        <div class="emptWrp width_100">
+          <div id="wrprInitialInfo" name="forModelView">
+
+
+
+            <h2 style="text-align: center">
+
+              Set or select desired location and click the "get forecast" button to view the weather for that location
+
+            </h2>
+          </div>
+
+          <p style="text-align: center;">
+            <a style="color: red; font-size: 18px; text-align: center;" href="https://gdalex.netlify.app/">Created by
+              GDA</a>
+          </p>
+
+          <div id="wrprControlPanel" class="flx f_j_cntr f_wrp">
+            <div class="emptWrp">
+              <div class="flx">
+                <select id="inputSelectLctn" title="location">
+                  <option value="def" selected disabled>
+                    select the desired location
+                  </option>
+                </select>
+                <button id="inputBtnGetForecast">get forecast</button>
+                <button id="inputBtnOpnLctnWindow">set location</button>
+              </div>
+            </div>
+          </div>
+          <h4 style="text-align: center;">Icons used <a style="color: red; font-weight: lighter;"
+              href="https://www.flaticon.com/">https://www.flaticon.com/</a></h4>
+        </div>
+      </div>
+    </header>
+  </div>
+</body>
+<script src="index_2.js" type="module"></script>
+
+</html>
